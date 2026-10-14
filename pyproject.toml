@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oimap4rs"
+version = "0.1.0"
+description = "Optimal interpolation of HF-radar radial velocities onto a vector current at one grid point (Kim et al., 2008)"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["numpy"]
+authors = [{ name = "Sung Yong Kim", email = "syongkim@kaist.ac.kr" }]
+
+[tool.setuptools]
+packages = ["oimap4rs"]

@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it and the method paper below."
+title: "oimap4rs: optimal interpolation of HF-radar radial velocities"
+version: 0.1.0
+authors:
+  - family-names: Kim
+    given-names: Sung Yong
+    affiliation: "Department of Mechanical Engineering, KAIST"
+    email: syongkim@kaist.ac.kr
+references:
+  - type: article
+    authors:
+      - family-names: Kim
+        given-names: Sung Yong
+      - family-names: Terrill
+        given-names: Eric J.
+      - family-names: Cornuelle
+        given-names: Bruce D.
+    title: "Mapping surface currents from HF radar radial velocity measurements using optimal interpolation"
+    journal: "Journal of Geophysical Research: Oceans"
+    volume: 113
+    issue: C10
+    year: 2008
+    doi: 10.1029/2007JC004244
