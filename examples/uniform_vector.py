@@ -5,7 +5,7 @@ from pathlib import Path
 import numpy as np
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))  # run without installing
-from oimap4rs import lonlat2km, tuvOIg
+from oimaps4rs import lonlat2km, tuvOIg
 
 rng = np.random.default_rng(0)
 lon0, lat0 = -117.25, 32.55

@@ -1,4 +1,4 @@
-# oimap4rs
+# oimaps4rs
 
 Optimal interpolation (OI) of HF-radar radial velocities onto a vector current at one grid point.
 Python version of the OI of Kim, Terrill, and Cornuelle (2008), which replaces the constant-vector
@@ -11,7 +11,7 @@ Python version of the OI of Kim, Terrill, and Cornuelle (2008), which replaces t
 ## Use
 
 ```python
-from oimap4rs import lonlat2km, tuvOIg
+from oimaps4rs import lonlat2km, tuvOIg
 
 # km (east, north) from the grid point to each radial cell
 dx, dy = lonlat2km(lon0, lat0, lon, lat)
