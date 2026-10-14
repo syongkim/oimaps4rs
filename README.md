@@ -42,6 +42,10 @@ Typical values (Kim et al., 2008): search radius 5 km, `sx = sy = 2` km, `P = 40
 
 ## Cite
 
+Software: Kim, S. Y. (2026), oimaps4rs, Zenodo, doi:10.5281/zenodo.23373005 (all versions).
+
+Method:
+
 Kim, S. Y., E. J. Terrill, and B. D. Cornuelle (2008), Mapping surface currents from HF radar radial
 velocity measurements using optimal interpolation, *J. Geophys. Res.*, 113, C10023,
 doi:10.1029/2007JC004244. See also `CITATION.cff`.

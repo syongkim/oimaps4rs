@@ -9,6 +9,8 @@ authors:
     affiliation: "Korea Advanced Institute of Science and Technology"
     email: syongkim@kaist.ac.kr
 license: MIT
+repository-code: "https://github.com/syongkim/oimaps4rs"
+doi: 10.5281/zenodo.23373005
 references:
   - type: article
     authors:
