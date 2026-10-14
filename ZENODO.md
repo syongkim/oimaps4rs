@@ -5,13 +5,17 @@ Same procedure as `papers/ksstats/deposit/ZENODO.md`.
 
 ## 0. GitHub repo `syongkim/oimaps4rs`
 
+The repository already exists (public, empty, created 2026-08-21), so only push.
+The `origin` remote is already set to `git@github.com:syongkim/oimaps4rs.git`.
+
 ```bash
 cd /pao1/library/repository/oimaps4rs
-git remote add origin git@github.com:syongkim/oimaps4rs.git
 git push -u origin main
 ```
 
-(Create the empty repository `oimaps4rs` on GitHub first, public, without README or license.)
+The server key `~/.ssh/id_ed25519.pub` is not registered on GitHub (`Permission denied (publickey)`).
+Either add it at GitHub → Settings → SSH and GPG keys, or push over HTTPS with a personal access token:
+`git push https://github.com/syongkim/oimaps4rs.git main`.
 
 ## 1. Zenodo
 
