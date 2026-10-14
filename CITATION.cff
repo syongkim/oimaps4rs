@@ -1,12 +1,14 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it and the method paper below."
+message: "Cite this software and Kim et al. (2008) for the method."
 title: "oimap4rs: optimal interpolation of HF-radar radial velocities"
 version: 0.1.0
 authors:
   - family-names: Kim
     given-names: Sung Yong
-    affiliation: "Department of Mechanical Engineering, KAIST"
+    orcid: "https://orcid.org/0000-0003-1962-8992"
+    affiliation: "Korea Advanced Institute of Science and Technology"
     email: syongkim@kaist.ac.kr
+license: MIT
 references:
   - type: article
     authors:

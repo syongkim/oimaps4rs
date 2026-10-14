@@ -48,4 +48,4 @@ doi:10.1029/2007JC004244. See also `CITATION.cff`.
 
 ## License
 
-To be decided before the first public release.
+MIT (see `LICENSE`, `NOTICE`).

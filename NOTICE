@@ -1,0 +1,10 @@
+This package is the Python expression of the optimal interpolation (OI) of
+HF-radar radial velocities onto a vector current, as described in:
+
+  Kim, S. Y., E. J. Terrill, and B. D. Cornuelle, 2008: Mapping surface
+  currents from HF radar radial velocity measurements using optimal
+  interpolation. J. Geophys. Res., 113, C10023, doi:10.1029/2007JC004244.
+
+It follows the MATLAB routine rad2uvoiunif (June 2006) of the same author.
+Mathematical methods are not copyrighted. This repository claims copyright
+only in the new Python expression (MIT License).

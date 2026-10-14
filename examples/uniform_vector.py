@@ -1,5 +1,10 @@
 """Radials of a uniform current (u, v) = (10, 5) cm/s seen from 12 look angles; OI recovers it."""
+import sys
+from pathlib import Path
+
 import numpy as np
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))  # run without installing
 from oimap4rs import lonlat2km, tuvOIg
 
 rng = np.random.default_rng(0)
